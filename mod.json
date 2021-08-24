@@ -1,0 +1,23 @@
+{
+    "_QPVersion": "0.1.1",
+    "name": "Template Mod",
+    "id": "TempMod",
+    "author": "NameHere",
+    "version": "1.0.0",
+    "packageId": "com.DEVNAME.GAMENAME",
+    "packageVersion": "1.0.0",
+    "coverImage": "coverImage.png",
+    "modFiles": [
+        "libname.so"
+    ],
+    "libraryFiles": [
+        "libbeatsaber-hook_1_3_5.so"
+    ],
+    "dependencies": [
+        {
+            "id": "monkecodegen",
+            "version": "^0.8.0",
+            "downloadIfMissing": "https://github.com/RedBrumbler/MonkeCodegen/releases/download/latest/MonkeCodegen.qmod"
+       
+    ]
+}
